@@ -7,9 +7,7 @@ public class NotesRepositoryImpl implements NotesRepository {
 
     private final ArrayList<Note> notes = new ArrayList<>();
 
-    @Override
-    public List<Note> getNotes() {
-
+    public NotesRepositoryImpl() {
         notes.add(new Note(0, "01.09.2021", "Заметка 1", "Hello Fragment 1"));
         notes.add(new Note(1, "02.09.2021", "Заметка 2", "Hello Fragment 2"));
         notes.add(new Note(2, "03.09.2021", "Заметка 3", "Hello Fragment 3"));
@@ -24,7 +22,10 @@ public class NotesRepositoryImpl implements NotesRepository {
         notes.add(new Note(11, "09.09.2021", "Заметка 12", "Hello Fragment 12"));
         notes.add(new Note(12, "10.09.2021", "Заметка 13", "Hello Fragment 13"));
         notes.add(new Note(13, "11.09.2021", "Заметка 14", "Hello Fragment 14"));
+    }
 
+    @Override
+    public List<Note> getNotes() {
         return notes;
     }
 }

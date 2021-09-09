@@ -52,8 +52,6 @@ public class NoteDetailsFragment extends Fragment {
             if (note != null) {
                 displayNote(note);
             }
-
-
         }
     }
 
