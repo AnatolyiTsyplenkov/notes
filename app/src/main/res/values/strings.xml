@@ -1,4 +1,8 @@
 <resources>
-    <string name="app_name">notes</string>
+    <string name="app_name">Заметки</string>
+    <string name="action_settings">Настройки</string>
+    <string name="action_about">О приложении</string>
+    <string name="open_drawer">Открыть меню</string>
+    <string name="close_drawer">Закрыть меню</string>
     <dimen name="body_text_size">18sp</dimen>
 </resources>

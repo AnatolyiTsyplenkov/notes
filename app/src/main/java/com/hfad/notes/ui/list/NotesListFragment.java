@@ -50,6 +50,7 @@ public class NotesListFragment extends Fragment implements NotesListView {
     @Override
     public View onCreateView(@NonNull LayoutInflater inflater, @Nullable ViewGroup container, @Nullable Bundle savedInstanceState) {
         return inflater.inflate(R.layout.fragment_notes_list, container, false);
+
     }
 
     @Override
@@ -58,6 +59,7 @@ public class NotesListFragment extends Fragment implements NotesListView {
 
         container = view.findViewById(R.id.root);
         presenter.requestNotes();
+
     }
 
     @Override
